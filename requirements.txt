@@ -1,0 +1,6 @@
+mindnlp==0.2.0
+mindpet==1.0.1
+mindspore==2.1.0
+mindspore-lite==2.0.0
+numpy==1.21.6
+scikit-learn==1.0.2
