@@ -1,4 +1,4 @@
-# ABSA-PyTorch
+# ABSA-MindSpore
 
 > Aspect Based Sentiment Analysis, MindSpore Implementations.
 >
@@ -12,7 +12,7 @@
 * numpy >= 1.13.3
 * sklearn
 * python 3.7
-* transformers
+* mindnlp >= 0.2.0
 
 * For non-BERT-based models,
 [GloVe pre-trained word vectors](https://github.com/stanfordnlp/GloVe#download-pre-trained-word-vectors) are required, please refer to [data_utils.py](./data_utils.py) for more detail.
@@ -22,7 +22,7 @@
 ### Training
 
 ```sh
-python train_ms.py --model_name aoa --dataset restaurant
+python train_ms.py --model_name bert_spc --dataset restaurant
 ```
 
 * All implemented models are listed in [models directory](./models/).
